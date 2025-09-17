@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.kolor{ 
+    background-color: rgb(236, 236, 236);
+    width: 143%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+}
+.wprowadzenie{
+    width: 70%;
+}
+.zdj img{
+width: 80%;
+}
+.zdj{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.z1{
+    width: 22%;
+}
+.z2{
+    width: 22%;
+}
+.z3{
+    width: 22%;
+}
+#wiecej{
+    display: none;
+}
+.k{
+    width: 5%;
+}
+.k p{
+    cursor: pointer;
+    font-size: 30px;
+}
+.tekst:hover{
+    /* animation: backwards;
+    transition: .1s; */
+}
