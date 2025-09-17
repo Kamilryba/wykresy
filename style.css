@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header h1{
+    margin: 0;
+    padding: 10px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(3,300px);
+}
+.wyk{
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+#w1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+#w2{
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#w2 h5{
+    margin-top: 280px;
+    margin-left: 20px;
+}
+#w3{
+    grid-column: 1;
+    grid-row: 3;
+}
+#w4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;   
+}
+#w5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+
+}
+#w6{
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+}
+.pie {
+  width: 200px;
+  height: 200px;
+  background-image: conic-gradient(orange 64%, blue 64%, blue 81%, black 81%);
+  border-radius: 50%
+}
