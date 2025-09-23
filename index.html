@@ -1,50 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tak jak u Cara - Panel sterowania</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Tak jak u Cara - Dashboard</h1>
-        <!--menu TODO-->
-    </header>
-    <main>
-        <!--TODO dashboard look-->
-        <!--TODO wykres-->
-        <div class="wyk" id="w1">
+  <header>
+    <h1>Tak jak u Cara - Panel sterowania</h1>
+  </header>
 
-        </div>
-        <div class="wyk" id="w2">
-            <div class="pie">
-                <h6 id="rate5">5/5</h6>
-                <h6 id="rate5">4/5</h6>
-                <h6 id="rate5">3/5</h6>
-            </div>
-            <h5>oceny na gogle</h5>
-        </div>
-        <div class="wyk" id="w3">
+  <main>
+    <div class="wyk" id="wykres1">
+    <div class="opis" id="opis1"></div></div>
+    <div class="wyk" id="wykres2">
+    <div class="opis" id="opis2"></div></div>
+    <div class="wyk" id="wykres3">
+    <div class="opis" id="opis3"></div></div>
+    <div class="wyk" id="wykres4">
+    <div class="opis" id="opis4"></div></div>
+    <div class="wyk" id="wykres5">
+    <div class="opis" id="opis5"></div></div>
+    <div class="wyk" id="wykres6">
+    <div class="opis" id="opis6"></div></div>
+  </main>
 
-        </div>
-        <div class="wyk" id="w4">
+  <section id="sekcjaEdycji">
+    <h2>Edytuj wykres 1 (Stali klienci)</h2>
+    <form id="formularzEdycji">
+      <div id="polaEdycji">
+      </div>
+      <button type="submit">Aktualizuj wykres</button>
+    </form>
+  </section>
 
-        </div><div class="wyk" id="w5">
-
-        </div>
-        <div class="wyk" id="w6">
-
-        </div>
-    </main>
 </body>
+  <script src="data.js"></script>
 </html>
-
-<!---
-ilość stałych klientów -slup
--ilość klientów na dzień -slup
--oceny na gogle - slup
--procent satysfikowanych klientów w miesiącu - kolkowy
--dochody -slup/mies
--ilość zamuwień/tydzień
--->
