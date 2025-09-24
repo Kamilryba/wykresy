@@ -115,7 +115,7 @@ function utworzWykresLiniowy(idKontenera, dane, etykiety) {
     const p2 = punkty[i + 1];
     const dx = p2.x - p1.x;
     const dy = p2.y - p1.y;
-    const distance = Math.sqrt(dx*dx + dy*dy);
+    const distance = Math.sqrt(dx * dx + dy * dy);
     const angle = Math.atan2(dy, dx) * 180 / Math.PI;
 
     const linia = document.createElement('div');
