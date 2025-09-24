@@ -86,3 +86,24 @@ h2 {
 #wiecej {
     display: none;
 }
+
+ @media screen and (max-width: 720px) {
+        .zdj{
+            flex-direction: column;
+            width: 50%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-left: 25%;
+        }
+        .main p{
+            font-size: 18px;
+        }
+    }
+@media screen and (max-width: 450px){
+    .zdj{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
