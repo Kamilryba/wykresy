@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Formularz kontaktowy</title>
+  <link rel="stylesheet" href="stylekontakt.css">
+</head>
+<body>
+
+  <div class="kontakt-box">
+    <h2>Skontaktuj się z nami</h2>
+    <p>Wypełnij poniższy formularz, a odpowiemy tak szybko jak to możliwe.</p>
+
+    <form>
+      <div class="row">
+        <div>
+          <label for="imie">Imię<span style="color:red">*</span>:</label>
+          <input type="text" id="imie" name="imie" placeholder="Twoje imię">
+        </div>
+        <div>
+          <label for="nazwisko">Nazwisko:</label>
+          <input type="text" id="nazwisko" name="nazwisko" placeholder="Twoje nazwisko">
+        </div>
+      </div>
+
+      <label for="email">Email<span style="color:red">*</span>:</label>
+      <input type="email" id="email" name="email" placeholder="np. jan@kowalski.pl">
+
+      <label for="telefon">Telefon:</label>
+      <input type="tel" id="telefon" name="telefon" placeholder="np. 123-456-789">
+
+      <label for="wiadomosc">Wiadomość<span style="color:red">*</span>:</label>
+      <textarea id="wiadomosc" name="wiadomosc" rows="5" placeholder="Napisz swoją wiadomość..."></textarea>
+
+      <button type="submit">Wyślij</button>
+    </form>
+
+    <div class="stopka">
+      * Pola oznaczone gwiazdką są obowiązkowe
+    </div>
+  </div>
+
+</body>
+</html>
